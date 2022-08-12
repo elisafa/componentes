@@ -27,11 +27,10 @@ body {
   background-color: #087f5b;
   width: 800px;
   margin: 100px auto;
-  padding: 32px;
-  padding-left: 86px;
+  padding: 32px 48px 32px 86px;
   border-radius: 8px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 86px;
   position: relative;
 }
@@ -71,6 +70,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .btn-left{
@@ -86,6 +86,28 @@ img{
 
 .btn-icon{
   stroke: #087f5b;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+}
+
+.dots{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+  display: flex;
+  gap: 12px;
+}
+
+.dot{
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot-fill{
+  background-color: #087f5b;
 }
