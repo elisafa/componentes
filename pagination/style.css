@@ -1,0 +1,64 @@
+    /* 
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  /* line-height: 0.5; */
+  display: flex;
+  justify-content: center;
+}
+
+div{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icon{
+  stroke: #087f5b;
+  background: none;
+  border: none;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 2px solid #087f5b;
+  cursor: pointer;
+}
+
+.btn-icon:hover{
+  cursor: pointer;
+  background-color: #087f5b;
+  border-radius: 50%;
+  stroke: #fff;
+}
+
+.nu-3{
+  cursor: pointer;
+  background-color: #087f5b;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.number{
+  text-align: center;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+}
+
+.number:hover{
+  cursor: pointer;
+  background-color: #087f5b;
+  border-radius: 50%;
+  color: #fff;
+}
