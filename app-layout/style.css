@@ -1,10 +1,10 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
   color: #343a40;
   font-size: 24px;
@@ -15,17 +15,22 @@ body{
   text-align: center;
   font-weight: bold;
 }
-nav,menu,section,main,aside{
+
+nav,
+menu,
+section,
+main,
+aside {
   padding-top: 24px;
 }
 
-nav{
+nav {
   grid-row: 1/-1;
   background-color: #343a40;
   color: #fff;
 }
 
-menu{
+menu {
   grid-column: 2/-1;
   background-color: #7048e8;
   display: flex;
@@ -34,7 +39,7 @@ menu{
   padding: 0 40px;
 }
 
-button{
+button {
   font-size: 16px;
   background-color: #5f3dc4;
   border: none;
@@ -43,16 +48,31 @@ button{
   padding: 8px 12px;
 }
 
-button:last-child{
+button:last-child {
   background-color: #d6336c;
   margin-left: auto;
 }
 
-section{
+section {
   background-color: #e9ecef;
-
+  padding: 40px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-aside{
+.email {
+  flex-shrink: 0;
+  height: 96px;
+  background-color: #adb5bd;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+aside {
   background-color: #e9ecef;
 }
